@@ -65,4 +65,9 @@ setup(
     ext_modules=[CMakeExtension('normalSpeed')],
     cmdclass=dict(build_ext=CMakeBuild),
     zip_safe=False,
+    install_requires=[
+        'numpy',
+        'opencv-python>=4.0.0',
+        'pybind11[global]'
+    ]
 )
