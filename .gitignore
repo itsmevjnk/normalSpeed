@@ -1,3 +1,2 @@
-normalSpeed/build
+build/
 *.so
-normalSpeed/*.so
